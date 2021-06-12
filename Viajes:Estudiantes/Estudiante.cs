@@ -56,7 +56,7 @@ namespace ViajesBotta
 
         public string MostrarEstudiante() 
         {
-            string aux = "Estudiante ";
+            string aux = "Estudiante "; // Esta variable cumple la funcion de concatenar.
             aux += "| Nombre:" + nombre + "| Legajo:" + legajo + "| Edad:" + edad;
 
             if (edad >= 18)
@@ -64,10 +64,6 @@ namespace ViajesBotta
                 aux += "| Mayor de edad";
             else
                 aux+=  "| Menor de edad";
-
-           
-
-
 
             if (sexo)
                   aux += "| Sexo Masculino";
